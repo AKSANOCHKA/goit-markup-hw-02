@@ -78,12 +78,6 @@ ul {
 }
 
 
-.header-btn:hover,
-.header-button:focus {
-  background-color: tomato;
-  color: #F4F4FD;
-}
-
 .contact-link {
   color: #434455;
   font-style: normal;
