@@ -38,6 +38,10 @@ ul {
   background-color: #404bbf;
 }
 
+.hidden-heading {
+  display: none;
+}
+
 /* Header */
 .logo-dark {
   color: #2e2f42;
@@ -67,8 +71,10 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:focus {
-  color: #F4F4FD;
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 
@@ -136,6 +142,10 @@ ul {
   margin: 0 auto;
 }
 
+.portfolio-item {
+  width: 360px;
+  height: 420px;
+}
 /* Стилі для списка портфоліо */
 .portfolio-list {
   display: grid;
