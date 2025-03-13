@@ -200,6 +200,10 @@ font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
 }
 
+.logo-part {
+color: #f4f4fd;
+}
+
 .footer-text {
   line-height: 1.5;
   color: #f4f4fd;
