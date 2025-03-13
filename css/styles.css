@@ -23,11 +23,10 @@ a {
   text-transform: capitalize;
   cursor: pointer;
   text-align: center;
-  line-height: 1.5
-  margin: 0 auto;
   line-height: 1.5;
+  margin: 0 auto;
   letter-spacing: 0.04em;
-  background-color: #4D5AE5
+  background-color: #4D5AE5;
 }
 
 .button:hover {
@@ -53,9 +52,7 @@ a {
   color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
+
 
 .nav-link {
   font-weight: 500;
@@ -83,6 +80,10 @@ a {
   color: #404bbf;
 }
 
+.button:hover {
+  background-color: #404bbf;
+}
+
 /* Hero section */
 .hero-section {
   background-color: #2e2f42;
@@ -97,23 +98,26 @@ a {
   text-align: center;
   margin: 0 auto;
   letter-spacing: 0.02em;
-  line-height: 1.07
+  line-height: 1.07;
 }
 
 /* our team section */
 
 .team-section {
   background-color: #F4F4FD;
- 
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .align {
   letter-spacing: 0.02em;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
-.left-align {
+.team-item {
+  background-color: #FFFFFF;
+}
+
+.align {
   font-weight: 500;
     font-size: 20px;
   
@@ -124,11 +128,12 @@ a {
 }
 .text-center {
   letter-spacing: 0.02em;
-  background-color: #FFFFFF
-  line-height: 1.5
+  background-color: #FFFFFF;
+  line-height: 1.5;
 }
+
 .team-list {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 /* Our Portfolio-section */
 
@@ -146,7 +151,7 @@ a {
   text-align: center;
   margin: 0 auto;
   font-weight: 500;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .title {
@@ -163,16 +168,12 @@ a {
 }
 
 .portfolio-item {
-  
-  height: 420px;
 }
 /* Стилі для списка портфоліо */
 .portfolio-list {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* Три колонки */
   list-style: none;
-
   margin: 0;
 }
 
@@ -181,7 +182,7 @@ a {
 .portfolio-item-description {
   line-height: 1.5;
   color: #434455;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 
@@ -190,22 +191,13 @@ a {
   background-color: #2e2f42;
   
 }
-.logo-footer-logo {
-font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
 
-.logo-part {
-color: #f4f4fd;
-}
 
 .footer-text {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
