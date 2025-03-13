@@ -29,7 +29,7 @@ a {
   background-color: #4D5AE5;
 }
 
-.button:hover {
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -171,17 +171,14 @@ a {
 
 .team-title {
   text-align: center;
-  margin: 0 auto;
 }
 
 .portfolio-item {
 }
 /* Стилі для списка портфоліо */
 .portfolio-list {
-  grid-template-columns: repeat(3, 1fr);
   /* Три колонки */
   list-style: none;
-  margin: 0;
 }
 
 
