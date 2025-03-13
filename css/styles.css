@@ -26,7 +26,8 @@ a {
   line-height: 1.5
   margin: 0 auto;
   line-height: 1.5;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
+  background-color: #4D5AE5
 }
 
 .button:hover {
@@ -95,7 +96,8 @@ a {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  line-height: 1.07
 }
 
 /* our team section */
@@ -107,13 +109,25 @@ a {
 }
 
 .align {
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  line-height: 1.5
 }
 
-.centr-align {
-  letter-spacing: 0.02em
+.left-align {
+  font-weight: 500;
+    font-size: 20px;
+  
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.menu-list {
+.text-center {
+  letter-spacing: 0.02em;
+  background-color: #FFFFFF
+  line-height: 1.5
+}
+.team-list {
   background-color: #FFFFFF
 }
 /* Our Portfolio-section */
@@ -125,7 +139,7 @@ a {
 .section-title {
   text-align: center;
   color: #2e2f42;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.11;
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
@@ -167,6 +181,7 @@ a {
 .portfolio-item-description {
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em
 }
 
 
@@ -175,6 +190,8 @@ a {
   background-color: #2e2f42;
 }
 
-.paragraf-footer {
-  color: #f4f4fd;
+.footer-text {
+  line-height: 1.5;
+  color: var(--footer-text-color, #f4f4fd);
+  letter-spacing: 0.02em;
 }
