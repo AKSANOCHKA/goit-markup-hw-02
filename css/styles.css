@@ -34,7 +34,7 @@ a {
 }
 
 .hidden-heading {
-  display: none;
+  
 }
 
 /* Header */
@@ -144,9 +144,7 @@ a {
 }
 /* Our Portfolio-section */
 
-/* Основні стилі для секциї "Our Portfolio" */
-.portfolio-section {
-}
+
 
 .section-title {
   text-align: center;
@@ -173,8 +171,7 @@ a {
   text-align: center;
 }
 
-.portfolio-item {
-}
+
 /* Стилі для списка портфоліо */
 .portfolio-list {
   /* Три колонки */
